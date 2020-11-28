@@ -33,14 +33,18 @@ class DesktopNavbar extends StatelessWidget {
                 Navigator.pushReplacement(
                   context,
                   PageRouteBuilder(
-                    pageBuilder: (context, animation1, animation2) => MyHomePage(),
+                    pageBuilder: (context, animation1, animation2) =>
+                        MyHomePage(),
                     transitionDuration: Duration(seconds: 0),
                   ),
                 );
               },
               child: Text(
                 "My Portfolio",
-                style: TextStyle(fontWeight: FontWeight.bold, color: Colors.white, fontSize: 30),
+                style: TextStyle(
+                    fontWeight: FontWeight.bold,
+                    color: Colors.white,
+                    fontSize: 30),
               ),
             ),
             Row(
@@ -50,7 +54,8 @@ class DesktopNavbar extends StatelessWidget {
                     Navigator.pushReplacement(
                       context,
                       PageRouteBuilder(
-                        pageBuilder: (context, animation1, animation2) => Resume(),
+                        pageBuilder: (context, animation1, animation2) =>
+                            Resume(),
                         transitionDuration: Duration(seconds: 0),
                       ),
                     );
@@ -85,8 +90,8 @@ class DesktopNavbar extends StatelessWidget {
                 ),
                 MaterialButton(
                   color: Colors.pink,
-                  shape:
-                      RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(20.0))),
+                  shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.all(Radius.circular(20.0))),
                   onPressed: () {},
                   child: Text(
                     "Hire Me",
@@ -114,14 +119,18 @@ class MobileNavbar extends StatelessWidget {
               Navigator.pushReplacement(
                 context,
                 PageRouteBuilder(
-                  pageBuilder: (context, animation1, animation2) => MyHomePage(),
+                  pageBuilder: (context, animation1, animation2) =>
+                      MyHomePage(),
                   transitionDuration: Duration(seconds: 0),
                 ),
               );
             },
             child: Text(
               "My Portfolio",
-              style: TextStyle(fontWeight: FontWeight.bold, color: Colors.white, fontSize: 30),
+              style: TextStyle(
+                  fontWeight: FontWeight.bold,
+                  color: Colors.white,
+                  fontSize: 30),
             ),
           ),
           Padding(
@@ -136,7 +145,8 @@ class MobileNavbar extends StatelessWidget {
                       Navigator.pushReplacement(
                         context,
                         PageRouteBuilder(
-                          pageBuilder: (context, animation1, animation2) => Resume(),
+                          pageBuilder: (context, animation1, animation2) =>
+                              Resume(),
                           transitionDuration: Duration(seconds: 0),
                         ),
                       );

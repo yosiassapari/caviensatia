@@ -9,7 +9,10 @@ class Resume extends StatelessWidget {
     return Container(
       decoration: BoxDecoration(
         gradient: LinearGradient(
-          colors: [Color.fromRGBO(0, 0, 128, 1.0), Color.fromRGBO(173, 216, 230, 1.0)],
+          colors: [
+            Color.fromRGBO(0, 0, 128, 1.0),
+            Color.fromRGBO(173, 216, 230, 1.0)
+          ],
         ),
       ),
       child: Scaffold(
@@ -127,7 +130,8 @@ class Resume extends StatelessWidget {
                     //----------------Related Projects-------------------\\
                     Section(title: 'Related Projects'),
                     Detail(
-                      title: 'Analyzing Lichen Coverage by Substrate Preference, in Southern N.H.',
+                      title:
+                          'Analyzing Lichen Coverage by Substrate Preference, in Southern N.H.',
                       date: 'December 2017',
                       detail: 'Researcher',
                       explanation: [
@@ -139,7 +143,8 @@ class Resume extends StatelessWidget {
                     //----------------Work & Experience-------------------\\
                     Section(title: 'Work & Experience'),
                     Detail(
-                      title: 'University of New Hampshire Hospitality Service – Durham, NH',
+                      title:
+                          'University of New Hampshire Hospitality Service – Durham, NH',
                       date: 'January 2018 – December 2019',
                       detail: 'Dining Associate',
                       explanation: [
@@ -149,7 +154,7 @@ class Resume extends StatelessWidget {
                       textColor: Colors.white,
                     ),
 
-                    Section(title: 'Campus & Leadershiip Activites'),
+                    Section(title: 'Campus & Leadership Activites'),
                     Detail(
                       title: 'Papua Intellect Research',
                       date: 'May 2020 – Present',
@@ -160,12 +165,13 @@ class Resume extends StatelessWidget {
                       textColor: Colors.white,
                     ),
                     Detail(
-                      title: 'University of New Hampshire Global Student Success Program',
+                      title:
+                          'University of New Hampshire Global Student Success Program',
                       date: 'July 2015',
                       detail: 'Orientation Leader',
                       explanation: [
                         'Became an orientation leader for international students coming to UNH',
-                        'Helped a successful transition for international students to campus life and university environment',
+                        'Help a successful transition for international students to campus life and university environment',
                       ],
                       textColor: Colors.white,
                     ),
