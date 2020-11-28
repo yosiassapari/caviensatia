@@ -9,14 +9,14 @@ class LandingPage extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: <Widget>[
             Text(
-              biggestWidth > 800 ? "Soon to be\nGeologist" : "Son to be Geologist",
+              biggestWidth > 800 ? "Soon to be Geologist" : "Soon to be Geologist",
               style: TextStyle(fontWeight: FontWeight.bold, fontSize: 40.0, color: Colors.white),
               textAlign: biggestWidth > 800 ? TextAlign.left : TextAlign.center,
             ),
             Padding(
               padding: const EdgeInsets.symmetric(vertical: 20.0),
               child: Text(
-                "A graduate student in hydrogeology program at ISU looking for a position at environmental services in groundwater management, and geosciences field in geological exploration, where I can my STEM-oriented instruction, technology, and leadership and communication skills to support team growth and success.",
+                "A graduate student in hydrogeology program at ISU looking for a position at environmental services in groundwater management, and geosciences field in geological exploration, where I can apply my STEM-oriented instruction, technology, and leadership and communication skills to support team growth and success.",
                 style: TextStyle(fontSize: 16.0, color: Colors.white),
                 textAlign: biggestWidth > 800 ? TextAlign.left : TextAlign.center,
               ),

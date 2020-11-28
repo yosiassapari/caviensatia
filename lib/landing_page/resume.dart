@@ -30,6 +30,7 @@ class Resume extends StatelessWidget {
                       date: 'Graduated May 2020',
                       detail: 'Bachelor of Science: Geology',
                       explanation: ['GPA: 3.0'],
+                      textColor: Colors.white,
                     ),
 
                     //----------------Relevant Course Work-------------------\\
@@ -41,39 +42,84 @@ class Resume extends StatelessWidget {
                       children: [
                         Container(
                           width: 262,
-                          child: Text('• ESCI 561: Landscape Evolution'),
+                          child: Text(
+                            '• ESCI 561: Landscape Evolution',
+                            style: TextStyle(
+                              color: Colors.white,
+                            ),
+                          ),
                         ),
                         Container(
                           width: 262,
-                          child: Text('• ESCI 512: Principles of Mineralogy'),
+                          child: Text(
+                            '• ESCI 512: Principles of Mineralogy',
+                            style: TextStyle(
+                              color: Colors.white,
+                            ),
+                          ),
                         ),
                         Container(
                           width: 262,
-                          child: Text('• ESCI 530: Geological Field Methods'),
+                          child: Text(
+                            '• ESCI 530: Geological Field Methods',
+                            style: TextStyle(
+                              color: Colors.white,
+                            ),
+                          ),
                         ),
                         Container(
                           width: 262,
-                          child: Text('• ESCI 631: Structural Geology'),
+                          child: Text(
+                            '• ESCI 631: Structural Geology',
+                            style: TextStyle(
+                              color: Colors.white,
+                            ),
+                          ),
                         ),
                         Container(
                           width: 262,
-                          child: Text('• ESCI 614: Introduction to Petrology'),
+                          child: Text(
+                            '• ESCI 614: Introduction to Petrology',
+                            style: TextStyle(
+                              color: Colors.white,
+                            ),
+                          ),
                         ),
                         Container(
                           width: 262,
-                          child: Text('• ESCI 652: Petrology'),
+                          child: Text(
+                            '• ESCI 652: Petrology',
+                            style: TextStyle(
+                              color: Colors.white,
+                            ),
+                          ),
                         ),
                         Container(
                           width: 262,
-                          child: Text('• General Chemistry'),
+                          child: Text(
+                            '• General Chemistry',
+                            style: TextStyle(
+                              color: Colors.white,
+                            ),
+                          ),
                         ),
                         Container(
                           width: 262,
-                          child: Text('• General Physics'),
+                          child: Text(
+                            '• General Physics',
+                            style: TextStyle(
+                              color: Colors.white,
+                            ),
+                          ),
                         ),
                         Container(
                           width: 262,
-                          child: Text('• Field Camp'),
+                          child: Text(
+                            '• Field Camp',
+                            style: TextStyle(
+                              color: Colors.white,
+                            ),
+                          ),
                         ),
                       ],
                     ),
@@ -87,6 +133,7 @@ class Resume extends StatelessWidget {
                       explanation: [
                         'Conducted a project to determine the degree to which types of rock substrate (Igneous, Metamorphic, or Sedimentary rock) will affect the extent of lichen colonization.'
                       ],
+                      textColor: Colors.white,
                     ),
 
                     //----------------Work & Experience-------------------\\
@@ -99,6 +146,7 @@ class Resume extends StatelessWidget {
                         'Making sure meals are ready to be served for students and visitors including utensils preparation and sanitation of the dining hall',
                         'Effectively communicate with kitchen and dish-room staff regarding meals and utensils preparation',
                       ],
+                      textColor: Colors.white,
                     ),
 
                     Section(title: 'Campus & Leadershiip Activites'),
@@ -109,6 +157,7 @@ class Resume extends StatelessWidget {
                       explanation: [
                         'Bring innovative solutions to Papua, Indonesia through a collective learning, discussions, and studies from different educational background.'
                       ],
+                      textColor: Colors.white,
                     ),
                     Detail(
                       title: 'University of New Hampshire Global Student Success Program',
@@ -118,6 +167,7 @@ class Resume extends StatelessWidget {
                         'Became an orientation leader for international students coming to UNH',
                         'Helped a successful transition for international students to campus life and university environment',
                       ],
+                      textColor: Colors.white,
                     ),
 
                     Section(title: 'Additional Experience'),
@@ -128,6 +178,7 @@ class Resume extends StatelessWidget {
                       explanation: [
                         'Developed skills for observing, analyzing, constructing geologic mapping, and interpreting geologic history of the Death Valley/Mojave Desert region of the Western Basin and Range province in southeastern California'
                       ],
+                      textColor: Colors.white,
                     ),
                     Detail(
                       title: 'Indonesian Community Connect – Dover, NH',
@@ -137,6 +188,7 @@ class Resume extends StatelessWidget {
                         'Established access to information resources, facilitating mutual understanding among cultures and values, and promoting the richness of the Indonesian cultural diversity in New Hampshire.',
                         'Plans and organizes the technical preparations for different events, and to assure the smooth run during the event.',
                       ],
+                      textColor: Colors.white,
                     ),
                     Detail(
                       title: 'Somersworth Indonesian Fair – Somersworth, NH',
@@ -146,6 +198,7 @@ class Resume extends StatelessWidget {
                         'Collaborated with Friends of Somersworth Organization (FOS), Somersworth Festival Association (SFA), the Consulate General of the Republic of Indonesia New York, and the Indonesian Community Connect (ICC)',
                         'Coordinated local event for celebrating the 71st anniversary of Indonesian Independence',
                       ],
+                      textColor: Colors.white,
                     ),
                   ],
                 ),

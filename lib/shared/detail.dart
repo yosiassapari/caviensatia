@@ -1,16 +1,19 @@
 import 'package:flutter/material.dart';
 
 class Detail extends StatelessWidget {
-  Detail(
-      {@required this.title,
-      @required this.date,
-      @required this.detail,
-      @required this.explanation});
+  Detail({
+    @required this.title,
+    @required this.date,
+    @required this.detail,
+    @required this.explanation,
+    @required this.textColor,
+  });
 
   final String title;
   final String date;
   final String detail;
   final List<String> explanation;
+  final Color textColor;
 
   Widget getTextWidgets(List<String> strings) {
     List<Widget> list = new List<Widget>();
@@ -34,12 +37,14 @@ class Detail extends StatelessWidget {
               title,
               style: TextStyle(
                 fontWeight: FontWeight.bold,
+                color: textColor,
               ),
             )),
             Text(
               date,
               style: TextStyle(
                 fontSize: 12,
+                color: textColor,
               ),
             ),
           ],
@@ -48,6 +53,7 @@ class Detail extends StatelessWidget {
           detail,
           style: TextStyle(
             fontStyle: FontStyle.italic,
+            color: textColor,
             fontSize: 13,
           ),
         ),
@@ -60,8 +66,8 @@ class Detail extends StatelessWidget {
                 .map((item) => Row(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
-                        Text('• '),
-                        Expanded(child: Text('$item')),
+                        Text('• ', style: TextStyle(color: textColor)),
+                        Expanded(child: Text('$item', style: TextStyle(color: textColor))),
                       ],
                     ))
                 .toList(),

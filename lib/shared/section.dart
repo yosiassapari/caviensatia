@@ -11,7 +11,14 @@ class Section extends StatelessWidget {
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         SizedBox(height: 20),
-        Text(title, style: TextStyle(color: Colors.white)),
+        Text(
+          title,
+          style: TextStyle(
+            color: Colors.white,
+            fontSize: 18,
+            fontWeight: FontWeight.bold,
+          ),
+        ),
         Divider(
           thickness: 1,
           color: Colors.white,
